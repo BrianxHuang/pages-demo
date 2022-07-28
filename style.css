@@ -1,0 +1,42 @@
+@keyframes chagecolor{
+    0%{background-color:red;}
+    50%{background-color:yellow;}
+    100%{background-color:blue;}
+}
+.box-animation{
+    background-color:black;
+    width:100px;
+    animation-name:chagecolor;
+    animation-duration:2s;
+    animation-iteration-count: 3 ;
+}
+.container{
+    display:flex;
+    flex-wrap :wrap;
+    flex-direction :row;
+    justify-content:space-between;
+    height : 300px;
+    align-items:center;
+    align-content:center;
+}
+.container div{
+    border:1px solid black;
+    padding :10px;
+    width:100px;
+}
+
+.food:hover{
+    color:blue;
+}
+.people{
+    color:red;
+}
+.backgrey{
+    background-color:gray;
+}
+ul li{
+    background-color:yellow;
+}
+[type]{
+    color:blue;
+}
